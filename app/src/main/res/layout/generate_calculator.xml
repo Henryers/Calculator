@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 返回按钮 -->
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="返回"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/common_blue_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- 生成表达式数量输入框 -->
+    <EditText
+        android:minHeight="60dp"
+        android:id="@+id/etExpressionCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="生成的表达式数量"
+        android:inputType="number"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <!-- 每个表达式的运算符数量输入框 -->
+    <EditText
+        android:minHeight="60dp"
+        android:id="@+id/etOperatorCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="每个表达式的运算数个数"
+        android:inputType="number"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <!-- 选择运算符的输入框 -->
+    <EditText
+        android:minHeight="60dp"
+        android:id="@+id/etOperators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="选择运算符 (+,-,*,/)"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <!-- 生成表达式按钮 -->
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="生成表达式"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/common_blue_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+</LinearLayout>

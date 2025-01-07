@@ -1,0 +1,5 @@
+<!-- res/drawable/button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#0088FF"/> <!-- 蓝色背景 -->
+    <corners android:radius="10dp"/> <!-- 使用 50% 半径保证是圆形 -->
+</shape>

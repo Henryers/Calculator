@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="Welcome to calculator!"
+        android:textSize="36sp"
+        android:textColor="#00aaff"
+        android:textStyle="bold"
+        android:padding="50dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.5"/>
+
+    <Button
+        android:id="@+id/btnToCommon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+        android:text="普通计算器"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/common_blue_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnToGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="40dp"
+        android:text="算式练习题"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/common_blue_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+</LinearLayout>
