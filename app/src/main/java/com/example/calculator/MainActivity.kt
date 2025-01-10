@@ -11,7 +11,7 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+//        enableEdgeToEdge()    // 沉浸式布局，全景延伸到最上方的通知栏
         setContentView(R.layout.activity_main)
 
         // 首页导航按钮
@@ -34,8 +34,5 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
-
-
-
 
 }

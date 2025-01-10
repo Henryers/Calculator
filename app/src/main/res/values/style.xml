@@ -4,7 +4,7 @@
         <item name="android:layout_width">0dp</item> <!-- 宽度自动填满列 -->
         <item name="android:layout_height">100dp</item> <!-- 高度和宽度一致 -->
         <item name="android:layout_columnWeight">1</item> <!-- 平分列宽 -->
-        <item name="android:background">@drawable/button_background</item> <!-- 圆形背景 -->
+        <item name="android:background">@drawable/orange_btn_50</item> <!-- 圆形背景 -->
         <item name="android:textSize">30sp</item>
         <item name="android:textColor">#FFFFFF</item> <!-- 白色文字 -->
     </style>

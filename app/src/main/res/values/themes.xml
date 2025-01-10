@@ -1,6 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+    <!-- Application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+    <!--只需要把DarkActionBar修改成NoActionBar-->
+    <!--至于其他代码，保持原来即可，Bridge是桥梁，用于样式过渡衔接的，避免样式错乱-->
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/blue_500</item>
         <item name="colorPrimaryVariant">@color/blue_200</item>
@@ -10,7 +13,7 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">@color/teal_700</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

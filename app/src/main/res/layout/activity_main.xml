@@ -6,15 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
 
     <TextView
         android:id="@+id/display"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="350dp"
         android:text="Welcome to calculator!"
         android:textSize="36sp"
-        android:textColor="#00aaff"
+        android:textColor="#FFFF66"
         android:textStyle="bold"
         android:padding="50dp"
         android:gravity="center"
@@ -31,7 +33,7 @@
         android:text="普通计算器"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
-        android:background="@drawable/common_blue_button"
+        android:background="@drawable/orange_btn_10"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +50,7 @@
         android:text="算式练习题"
         android:textSize="20sp"
         android:textColor="#FFFFFF"
-        android:background="@drawable/common_blue_button"
+        android:background="@drawable/orange_btn_10"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
